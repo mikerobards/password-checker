@@ -1,5 +1,6 @@
 import requests
 import hashlib
+import sys
 
 
 def request_api_data(query_char):
@@ -34,5 +35,4 @@ def main(args):
 
 
 if __name__ == '__main__':
-    import sys
     sys.exit(main(sys.argv[1:]))
